@@ -53,3 +53,31 @@ console.log(l.getName());
 // const retailCompanies = companies.filter(company => company.category === "Retail");
 
 // const companiesIn80s = companies.filter(company => company.start >= 1980 && company.start < 1990);
+
+const s = "hello".toUpperCase();
+
+console.log(s);
+
+// classes
+
+class Book{
+    constructor(){
+        this.title;
+        this.author;
+        this.year;
+    }
+
+    setTitle(title){
+        this.title = title;
+    }
+
+    getTitle(){
+        return this.title;
+    }
+}
+
+let b = new Book();
+b.setTitle("Bro Fist");
+
+console.log(b.getTitle());
+
